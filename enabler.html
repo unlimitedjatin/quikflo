@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="/img/favicon.ico">
+	<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet"> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+		integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="/css/swiper-bundle.min.css">
+	<link href="/css/animate.css" rel="stylesheet">
+	<link href="/css/slicknav.min.css" rel="stylesheet">
+	<link href="/css/magnific-popup.css" rel="stylesheet">
+	<link rel="stylesheet" href="/css/style.css">
+	<title>QuikFlo</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="tt-magic-cursor">
+	<div id="magic-cursor">
+		<div id="ball"></div>
+	</div>
+	<header class="text-center md:py-4 py-0">
+        <nav class="bg-transparent p-4">
+            <div class="nav-container max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="/index.html" class="font-bold text-xl"><img src="/img/QF_Logo-05.png" alt="" srcset=""
+                    width="148" height="auto"></a>
+                <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                    <a href="/contact-us.html" class="login-text font-bold rounded px-4 py-2 mr-2">Login</a>
+                    <a href="/contact-us.html" class="bg-btn-gradient text-white hover:bg-blue-600 rounded-3xl px-4 py-2">Sign Up</a>
+                    <button id="menuToggleBtn" data-collapse-toggle="navbar-sticky" type="button"
+						class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 md:hidden"
+						aria-controls="navbar-sticky" aria-expanded="false">
+						<span class="sr-only" id="menuToggleLabel">Open main menu</span>
+						<i id="menuIcon" class="fa-solid fa-bars"></i>
+					</button>
+                </div>
+                <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                    <div class="flex flex-grow justify-center gap-6 flex-col md:flex-row menu-plate">
+                        <div class="relative group submenu-group">
+                            <button class="font-bold hover:text-amber-950 focus:outline-none">Solution <svg
+                                    class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                    <path d="M10 12l-6-6h12l-6 6z" />
+                                </svg></button>
+                            <div
+                                class="submenu md:absolute md:bg-black mt-0 md:py-2 pt-2 w-48 rounded-lg md:shadow-xl md:opacity-0 md:invisible transition-opacity transition-transform transform origin-top duration-300 ease-in-out delay-75 group-hover:opacity-100 group-hover:visible">
+                                <a href="/#smart-solutions" class="block px-4 py-2 text-sm md:text-white hover:bg-gray-800">Brands</a>
+                                <a href="/retailer.html" class="block px-4 py-2 text-sm md:text-white hover:bg-gray-800">Retailers</a>
+                                <a href="/#partner" class="block px-4 py-2 text-sm md:text-white hover:bg-gray-800">City Enablers</a>
+                            </div>
+                        </div>
+                        <a href="/brands.html" class="md:mx-4 font-bold hover:text-amber-950">Our Brands</a>
+                        <a href="/our-approach.html" class="md:mx-4 font-bold hover:text-amber-950">Our Approach</a>
+                        <a href="/media.html" class="md:mx-4 font-bold hover:text-amber-950">Media</a>
+                        <a href="/blog" class="md:mx-4 font-bold hover:text-amber-950">Blogs</a>
+                        <div class="md:hidden mobile-login-btns header-btns flex md:justify-center gap-4">
+                                    <a href="#" class="login-text font-bold rounded px-4 py-2 mr-2">Login</a>
+                                    <a href="#" class="bg-btn-gradient text-white hover:bg-blue-600 rounded-3xl px-4 py-2">Sign Up</a>
+                                </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+	<section id="hero-section" class="relative pt-40 pb-20 px-5 md:h-screen flex items-center justify-center flex-col">
+		<div class="hero-bg"></div>
+		<div class="hero-float">
+			<img class="float-img" src="/img/Home Screen Icon (1).png" alt="" srcset="">
+			<img class="float-img" src="/img/Home Screen Icon (2).png" alt="" srcset="">
+			<img class="float-img" src="/img/Home Screen Icon (3).png" alt="" srcset="">
+		</div>
+		<div class="container mx-auto text-center">
+			<div class="mx-auto w-10/12">
+				<h2 class="md:text-7xl text-5xl font-black mb-10 leading-normal">Be the catalyst of new age brands in your city
+                </h2>
+				<p class="mb-10">Establishing a ecosystem with enablers to drive innovation in retail market</p>
+				<div class="banner-btn"><a href="/partner-with-us.html"
+						class="bg-btn-gradient text-xl text-white hover:bg-blue-600 rounded-3xl px-8 py-4">Get started
+						<i class="fa-solid fa-chevron-right"></i></a></div>
+			</div>
+		</div>
+		<!-- Add content here -->
+	</section>
+    <section id="brand" class="py-10 px-5 border-t">
+		<div class="container mx-auto text-center">
+			<h2 class="md:text-5xl text-2xl font-bold font-avenir text-center mb-10">Your Brand, Our
+				Platform, Retail
+				REDEFINED!</h2>
+			<div class="brand-image">
+				<figure class="image-anime">
+					<img class="mx-auto" src="/img/QF Pitch Deck-19 1.png" alt="">
+				</figure>
+			</div>
+			<!-- Add content here -->
+		</div>
+	</section>
+    <section id="enabler" class="py-10 px-5 bg-white relative z-10">
+		<div class="container mx-auto text-center">
+			<h2 class="md:text-5xl text-2xl font-bold font-avenir text-center mb-10">Become an <span class="green-title">Enabler!</span></h2>
+			<!-- Add content here -->
+            <div class="mx-auto flex items-center justify-center flex-col md:flex-row gap-6">
+                <div class="enabler-card flex flex-col justify-center w-60 p-6 rounded-xl shadow-xl text-center min-h-60">
+                    <figure class="mb-5 mx-auto">
+                        <img class="mx-auto w-16" src="img/app-based-network.png" alt="" srcset="">
+                    </figure>
+                    <p>Build an app based retail network</p>
+                </div>
+                <div class="enabler-card flex flex-col justify-center w-60 p-6 rounded-xl shadow-xl text-center min-h-60">
+                    <figure class="mb-5 mx-auto">
+                        <img class="mx-auto w-16" src="img/optimize-cost.png" alt="" srcset="">
+                    </figure>
+                    <p>Optimize the cost with our cutting edge supply chain tools</p>
+                </div>
+                <div class="enabler-card flex flex-col justify-center w-60 p-6 rounded-xl shadow-xl text-center min-h-60">
+                    <figure class="mb-5 mx-auto">
+                        <img class="mx-auto w-16" src="img/increase-margin.png" alt="" srcset="">
+                    </figure>
+                    <p>Increased margins from  the superstar brands</p>
+                </div>
+            </div>
+		</div>
+	</section>
+    <section id="partnering-benefits" class="py-10 px-5 relative z-10">
+		<div class="container mx-auto text-center">
+			<h2 class="md:text-5xl text-2xl font-bold font-avenir text-center mb-10">Benefits of Partnering with us</h2>
+			<!-- Add content here -->
+            <div class="parnering-row grid md:grid-cols-4 grid-cols-1 gap-6">
+                <div class="partnering-card bg-white flex flex-col justify-center p-6 rounded-xl shadow-xl text-center min-h-72">
+                    <figure class="mb-5 mx-auto">
+                        <img class="mx-auto w-16" src="img/plug-n-play.png" alt="" srcset="">
+                    </figure>
+                    <p>Plug and play model with minimal franchise</p>
+                </div>
+                <div class="partnering-card bg-white flex flex-col justify-center p-6 rounded-xl shadow-xl text-center min-h-72">
+                    <figure class="mb-5 mx-auto">
+                        <img class="mx-auto w-16" src="img/limitless-range.png" alt="" srcset="">
+                    </figure>
+                    <p>Limitless range of new age manufacturer brands</p>
+                </div>
+                <div class="partnering-card bg-white flex flex-col justify-center p-6 rounded-xl shadow-xl text-center min-h-72">
+                    <figure class="mb-5 mx-auto">
+                        <img class="mx-auto w-16" src="img/efficient-suply.png" alt="" srcset="">
+                    </figure>
+                    <p>Most efficient supply chain solutions</p>
+                </div>
+                <div class="partnering-card bg-white flex flex-col justify-center p-6 rounded-xl shadow-xl text-center min-h-72">
+                    <figure class="mb-5 mx-auto">
+                        <img class="mx-auto w-16" src="img/lucrative.png" alt="" srcset="">
+                    </figure>
+                    <p>Highly lucrative margin</p>
+                </div>
+            </div>
+		</div>
+	</section>
+    <section id="key-roles" class="py-10 px-5 bg-white relative z-10">
+		<div class="container mx-auto text-center">
+			<h2 class="md:text-5xl text-2xl font-bold font-avenir text-center mb-10">Key <span class="green-title">Roles</span></h2>
+			<!-- Add content here -->
+            <div class="mx-auto flex flex-col md:flex-row justify-center items-center gap-6">
+                <div class="enabler-card flex flex-col justify-center w-60 p-6 rounded-xl shadow-xl text-center min-h-60">
+                    <figure class="mb-5 mx-auto">
+                        <img class="mx-auto w-16" src="img/shop.png" alt="" srcset="">
+                    </figure>
+                    <p>Enrolling Retail shops and other POS</p>
+                </div>
+                <div class="enabler-card flex flex-col justify-center w-60 p-6 rounded-xl shadow-xl text-center min-h-60">
+                    <figure class="mb-5 mx-auto">
+                        <img class="mx-auto w-16" src="img/distribution.png" alt="" srcset="">
+                    </figure>
+                    <p>Enabling Streamlined last- mile Distribution</p>
+                </div>
+                <div class="enabler-card flex flex-col justify-center w-60 p-6 rounded-xl shadow-xl text-center min-h-60">
+                    <figure class="mb-5 mx-auto">
+                        <img class="mx-auto w-16" src="img/relationship.png" alt="" srcset="">
+                    </figure>
+                    <p>Retail Relationships & Retail Success</p>
+                </div>
+            </div>
+		</div>
+	</section>
+    <section id="requirements" class="py-10 px-5 bg-white relative z-10">
+		<div class="container mx-auto text-center bg-requirements py-10">
+			<h2 class="md:text-5xl text-2xl font-bold font-avenir text-center mb-10">What You <span class="green-title">Need</span>?</h2>
+			<!-- Add content here -->
+            <div class="mx-auto flex flex-col md:flex-row justify-center items-center md:gap-6">
+                <div class="flex flex-col justify-center w-60 p-6 text-center min-h-60">
+                    <figure class="mb-5 mx-auto">
+                        <img class="mx-auto w-16" src="img/wharehouse.png" alt="" srcset="">
+                    </figure>
+                    <p class="font-bold text-xl">1000+ SQFT 
+                        WAREHOUSE</p>
+                </div>
+                <div class="flex flex-col justify-center w-60 p-6 text-center min-h-60">
+                    <figure class="mb-5 mx-auto">
+                        <img class="mx-auto w-16" src="img/staff.png" alt="" srcset="">
+                    </figure>
+                    <p class="font-bold text-xl">4+ 
+                        MANAGEMENT
+                        STAFF</p>
+                </div>
+                <div class="flex flex-col justify-center w-60 p-6 text-center min-h-60">
+                    <figure class="mb-5 mx-auto">
+                        <img class="mx-auto w-16" src="img/com-vehical.png" alt="" srcset="">
+                    </figure>
+                    <p class="font-bold text-xl">2+ 
+                        COMMERCIAL
+                        VEHICLES</p>
+                </div>
+            </div>
+		</div>
+	</section>
+	<section id="contact" class="py-20 px-5 relative bg-white z-10">
+		<div class="container mx-auto">
+			<div class="grid grid md:grid-cols-3 grid-cols-1 gap-4">
+				<div class="contact-title">
+					<h2 class="text-5xl font-avenir font-black mb-2">Sign up </h2>
+					<h3 class="text-4xl font-bold">to our newsletter </h3>
+				</div>
+				<div class="md:col-span-2 form-div">
+					<h4 class="mb-5">Keep up with the latest QuikFlo news and insights.</h4>
+					<form action="subscribe.php" method="post">
+    <div class="md:flex mb-5 gap-4">
+        <input class="" type="text" name="name" id="name" placeholder="Name">
+        <input class="" type="text" name="number" id="number" placeholder="Whatsapp Number">
+        <input type="email" name="email" id="email" placeholder="Email">
+    </div>
+    <p>You accept the Terms & Conditions and Privacy Policy by submitting your request.</p>
+    <input type="submit" value="Submit">
+</form>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="text-center pt-10 relative bg-white z-10">
+		<section id="footer-gradient">
+
+		</section>
+		<section id="footer-dark" class="bg-black pt-20 pb-5 px-5 text-white">
+			<div class="container mx-auto">
+				<div class="grid md:grid-cols-2 grid-cols-1 gap-4 items-center">
+					<div class="footer-one">
+						<h3 class="text-4xl text-white font-bold text-left mb-10">QuikFlo</h3>
+						<div class="footer-social flex justify-start gap-2">
+							<a href="https://www.linkedin.com/company/quikflo/" target="_blank"><img src="/img/linkedin.svg" alt="" srcset=""></a>
+							<a href="https://x.com/QuikFlo_D2R?t=37fdkGQyxJDeIDigiJl-YQ&amp;s=09" target="_blank"><img src="/img/x.svg" alt="" srcset=""></a>
+							<a href="https://youtube.com/@QuikFLo?si=ZIcaip0mn3qUP0nP" target="_blank"><img src="/img/yt.svg" alt="" srcset=""></a>
+							<a href="https://www.instagram.com/quikflo?igsh=MW1iNnI4M2Q5anI0aA==" target="_blank"><img src="/img/insta.svg" alt="" srcset=""></a>
+							<a href="https://www.facebook.com/profile.php?id=61557877877207YQ&amp;mibextid=ZbWKwL" target="_blank"><img src="/img/fb.svg" alt="" srcset=""></a>
+						</div>
+					</div>
+					<div class="footer-two">
+						<div class="grid md:grid-cols-2 grid-cols-1gap-6">
+							<div class="footer-links text-left mb-4">
+								<h3 class="text-2xl font-bold mb-2">Partner with us</h3>
+								<ul>
+									<li><a href="/partner-with-us.html">As a Brand</a></li>
+									<li><a href="/partner-with-us.html">As a City Enabler</a></li>
+									<li><a href="/partner-with-us.html">As a Retailer</a></li>
+								</ul>
+							</div>
+							<div class="footer-links text-left mb-4">
+								<h3 class="text-2xl font-bold mb-2">Company</h3>
+								<ul>
+                                    <li><a href="/our-approach.html">Our Approach</a></li>
+                                    <li>Careers</li>
+                                    <li><a href="/contact-us.html">Contact Us</a></li>
+								</ul>
+							</div>
+							<div class="footer-links text-left mb-4">
+								<h3 class="text-2xl font-bold mb-2">Legal</h3>
+								<ul>
+									<li>Terms of Service</li>
+									<li>Privacy Policy</li>
+								</ul>
+							</div>
+							<div class="footer-links text-left mb-4">
+								<h3 class="text-2xl font-bold mb-2">Resource </h3>
+								<ul>
+									<li><a href="/brands.html">Our Brands</a></li>
+									<li><a href="/blog">Blogs</a></li>
+									<li><a href="/media.html">Media</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-divider">
+				</div>
+<p class="mt-5 text-white text-center">
+	Copyright © QuikFlo by QuikFlo Technologies Private Limited, 2024. All rights reserved.
+</p>
+			</div>
+		</section>
+		<!-- Add a form here for newsletter sign up -->
+	</footer>
+		<!-- Swiper js file -->
+<script src="/js/swiper-bundle.min.js"></script>
+	<script src="/js/index.js"></script>
+	<!-- Jquery Library File -->
+	<script src="/js/jquery-3.7.1.min.js"></script>
+	<!-- Bootstrap js file -->
+	<script src="/js/bootstrap.min.js"></script>
+	<!-- Validator js file -->
+	<script src="/js/validator.min.js"></script>
+	<!-- SlickNav js file -->
+	<script src="/js/jquery.slicknav.js"></script>
+
+	<!-- Counter js file -->
+	<script src="/js/jquery.waypoints.min.js"></script>
+	<script src="/js/jquery.counterup.min.js"></script>
+	<!-- Magnific js file -->
+	<script src="/js/jquery.magnific-popup.min.js"></script>
+	<!-- SmoothScroll -->
+	<script src="/js/SmoothScroll.js"></script>
+	<!-- Parallax js -->
+	<script src="/js/parallaxie.js"></script>
+	<!-- MagicCursor js file -->
+	<script src="/js/gsap.min.js"></script>
+	<script src="/js/magiccursor.js"></script>
+	<!-- Text Effect js file -->
+	<script src="/js/splitType.js"></script>
+	<script src="/js/ScrollTrigger.min.js"></script>
+	<!-- Main Custom js file -->
+	<script src="/js/function.js"></script>
+</body>
+
+</html>
