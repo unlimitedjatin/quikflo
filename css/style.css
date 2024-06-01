@@ -426,7 +426,7 @@ ul.sc-list li {
 }
 
 .ss-green {
-    background: url("/img/ic_brand-2.png")no-repeat center center/115%;
+    background: url("/img/Green Card.png")no-repeat center center/115%;
 }
 .ss-pink {
     background: url("/img/Pink Card.png")no-repeat center center/115%;
@@ -460,7 +460,7 @@ ul.sc-list li {
 }
 
 .sr-content {
-    max-width: 300px;
+    max-width: 400px;
 }
 
 .sr-card {
@@ -1337,7 +1337,7 @@ span.green-title {
 }
 #requirements figure img {height: 60px;object-fit: contain;}
 #stretegic {
-    background: linear-gradient(45deg, #E0FFEF, #E0FFEF);
+    background: linear-gradient(180deg, #E0FFEF 60%, #fff 100%);
     min-height: 100vh;
 }
 img.approach-stretegy-logo {
@@ -1456,15 +1456,6 @@ img.approach-stretegy-logo {
         height: 200px;
     }
 
-    .brand-gradient {
-        background: linear-gradient(45deg, #DDF3AB, #C0F8F3);
-        transform: translateY(0px);
-    }
-
-    .brand-card:not(.brand-gradient) {
-        transform: translateY(0);
-        background: #fff;
-    }
 
     .redifine-card:last-child {
         transform: rotate(10deg) translate(40px, -70px);
